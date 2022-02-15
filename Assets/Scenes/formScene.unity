@@ -123,6 +123,35 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!21 &9934271
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'singeMaterial
+
+    24612'
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: daa0b8d0657347beb8110b4f8139b6c6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &128756927
 GameObject:
   m_ObjectHideFlags: 0
@@ -234,6 +263,35 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &170865771
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'rhinoMaterial
+
+    24682'
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: dd4d97897fb448859459277f29b575dc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &248176841
 GameObject:
   m_ObjectHideFlags: 0
@@ -282,7 +340,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 284206918}
+  - {fileID: 9934271}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -536,16 +594,16 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!21 &284206918
+--- !u!21 &331870020
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'singeMaterial
+  m_Name: 'snakeMaterial
 
-    22318'
+    24638'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -558,7 +616,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: daa0b8d0657347beb8110b4f8139b6c6, type: 3}
+        m_Texture: {fileID: 2800000, guid: 595b1303df4440058ad3be2ca7b9ba78, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -580,32 +638,32 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 8d91e39ec31cee0478ef98cf7ccac7a9,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 200
+      value: 347.78
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8d91e39ec31cee0478ef98cf7ccac7a9,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 200
+      value: 347.78
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8d91e39ec31cee0478ef98cf7ccac7a9,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 500
+      value: 869.44995
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8d91e39ec31cee0478ef98cf7ccac7a9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 2.3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8d91e39ec31cee0478ef98cf7ccac7a9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 15
+      value: 26.2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8d91e39ec31cee0478ef98cf7ccac7a9,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 5.8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8d91e39ec31cee0478ef98cf7ccac7a9,
         type: 3}
@@ -784,7 +842,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 712513037}
+  - {fileID: 331870020}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -967,35 +1025,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!21 &712513037
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'snakeMaterial
-
-    22366'
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 595b1303df4440058ad3be2ca7b9ba78, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1149,35 +1178,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a79fae7a20178de47b6f675fe869660f, type: 3}
---- !u!21 &1152638612
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'rhinoMaterial
-
-    22450'
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: dd4d97897fb448859459277f29b575dc, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1001 &1245798731
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1198,32 +1198,32 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 572eedc6e087c7549862bfec1a38b769,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 10
+      value: 15.06441
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 572eedc6e087c7549862bfec1a38b769,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 10
+      value: 15.06441
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 572eedc6e087c7549862bfec1a38b769,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 10
+      value: 15.06441
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 572eedc6e087c7549862bfec1a38b769,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.10324
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 572eedc6e087c7549862bfec1a38b769,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 4.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 572eedc6e087c7549862bfec1a38b769,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -20
+      value: -25.853
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 572eedc6e087c7549862bfec1a38b769,
         type: 3}
@@ -1368,7 +1368,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1152638612}
+  - {fileID: 170865771}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1718,32 +1718,32 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 788ff14c21587de4f9158def9579a40c,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 2000
+      value: 3362.6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 788ff14c21587de4f9158def9579a40c,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 2000
+      value: 3362.6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 788ff14c21587de4f9158def9579a40c,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 2000
+      value: 3362.6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 788ff14c21587de4f9158def9579a40c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.991
+      value: -4.832
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 788ff14c21587de4f9158def9579a40c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 26.2
+      value: 44.3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 788ff14c21587de4f9158def9579a40c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.014
+      value: 4.323
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 788ff14c21587de4f9158def9579a40c,
         type: 3}
