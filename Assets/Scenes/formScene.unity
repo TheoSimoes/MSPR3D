@@ -340,11 +340,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-<<<<<<< Updated upstream
-  - {fileID: 9934271}
-=======
   - {fileID: 1599070479}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -598,7 +594,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
-<<<<<<< Updated upstream
 --- !u!21 &331870020
 Material:
   serializedVersion: 6
@@ -628,8 +623,6 @@ Material:
     m_Colors:
     - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
   m_BuildTextureStacks: []
-=======
->>>>>>> Stashed changes
 --- !u!1001 &371948945
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -849,11 +842,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-<<<<<<< Updated upstream
-  - {fileID: 331870020}
-=======
   - {fileID: 641957369}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1218,8 +1207,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a79fae7a20178de47b6f675fe869660f, type: 3}
-<<<<<<< Updated upstream
-=======
 --- !u!1 &1091179802
 GameObject:
   m_ObjectHideFlags: 0
@@ -1299,7 +1286,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1091179802}
   m_CullTransparentMesh: 1
->>>>>>> Stashed changes
 --- !u!1001 &1245798731
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1519,11 +1505,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-<<<<<<< Updated upstream
-  - {fileID: 170865771}
-=======
   - {fileID: 1397118652}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
