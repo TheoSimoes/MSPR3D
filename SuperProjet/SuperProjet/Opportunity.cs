@@ -9,5 +9,6 @@ namespace SuperProjet
         public string Name { get; set; }
         public string CloseDate { get; set; }
         public string StageName { get; set; }
+        public string Email__c { get; set; }
     }
 }

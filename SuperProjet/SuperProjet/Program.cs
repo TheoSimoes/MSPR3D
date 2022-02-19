@@ -49,9 +49,10 @@ namespace SuperProjet
 
                 var op = new Opportunity
                 {
-                    Name = "NameTest",
+                    Name = "NameTest28",
                     CloseDate = "2023-08-01",
-                    StageName = "New"
+                    StageName = "New",
+                    Email__c = "super@test.fr"
                 };
 
                 string jsonOpportunity = JsonSerializer.Serialize(op);
