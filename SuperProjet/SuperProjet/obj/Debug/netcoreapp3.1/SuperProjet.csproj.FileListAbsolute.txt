@@ -1,0 +1,14 @@
+C:\Users\flore\source\repos\SuperProjet\SuperProjet\bin\Debug\netcoreapp3.1\SuperProjet.exe
+C:\Users\flore\source\repos\SuperProjet\SuperProjet\bin\Debug\netcoreapp3.1\SuperProjet.deps.json
+C:\Users\flore\source\repos\SuperProjet\SuperProjet\bin\Debug\netcoreapp3.1\SuperProjet.runtimeconfig.json
+C:\Users\flore\source\repos\SuperProjet\SuperProjet\bin\Debug\netcoreapp3.1\SuperProjet.runtimeconfig.dev.json
+C:\Users\flore\source\repos\SuperProjet\SuperProjet\bin\Debug\netcoreapp3.1\SuperProjet.dll
+C:\Users\flore\source\repos\SuperProjet\SuperProjet\bin\Debug\netcoreapp3.1\SuperProjet.pdb
+C:\Users\flore\source\repos\SuperProjet\SuperProjet\obj\Debug\netcoreapp3.1\SuperProjet.csproj.AssemblyReference.cache
+C:\Users\flore\source\repos\SuperProjet\SuperProjet\obj\Debug\netcoreapp3.1\SuperProjet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\flore\source\repos\SuperProjet\SuperProjet\obj\Debug\netcoreapp3.1\SuperProjet.AssemblyInfoInputs.cache
+C:\Users\flore\source\repos\SuperProjet\SuperProjet\obj\Debug\netcoreapp3.1\SuperProjet.AssemblyInfo.cs
+C:\Users\flore\source\repos\SuperProjet\SuperProjet\obj\Debug\netcoreapp3.1\SuperProjet.csproj.CoreCompileInputs.cache
+C:\Users\flore\source\repos\SuperProjet\SuperProjet\obj\Debug\netcoreapp3.1\SuperProjet.dll
+C:\Users\flore\source\repos\SuperProjet\SuperProjet\obj\Debug\netcoreapp3.1\SuperProjet.pdb
+C:\Users\flore\source\repos\SuperProjet\SuperProjet\obj\Debug\netcoreapp3.1\SuperProjet.genruntimeconfig.cache
