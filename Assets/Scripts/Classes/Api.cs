@@ -6,9 +6,6 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-using System.Text.Json;
-using System.Text.Json.Serialization;
-
 namespace Assets.Scripts.Classes
 {
     public class Api
@@ -52,7 +49,7 @@ namespace Assets.Scripts.Classes
                 var response = send.EnsureSuccessStatusCode();
                 var res = await send.Content.ReadAsStringAsync();
 
-                Response reponse = JsonSerializer.Deserialize<Response>(res);
+                Response reponse = JsonConvert.DeserializeObject<Response>(res);
                 token = reponse.access_token;
 
             }
@@ -63,7 +60,7 @@ namespace Assets.Scripts.Classes
 
         public async Task<string> InsertOpportunity(string token, Opportunity opportunity)
         {
-            string jsonOpportunity = JsonSerializer.Serialize(opportunity);
+            string jsonOpportunity = JsonConvert.SerializeObject(opportunity);
             var client = new HttpClient();
             string urlOpportunity = "https://epsi-4a-dev-ed.my.salesforce.com/services/data/v53.0/sobjects/Opportunity";
 

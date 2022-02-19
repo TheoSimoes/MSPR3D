@@ -10,9 +10,13 @@ using UnityEngine.UI;
 
 public class ButtonClick : MonoBehaviour
 {
+
+    GameObject textError;
     // Start is called before the first frame update
     void Start()
     {
+        textError = GameObject.Find("textError");
+        textError.SetActive(false);
     }
 
     // Update is called once per frame
@@ -35,6 +39,7 @@ public class ButtonClick : MonoBehaviour
     {
         string name = GameObject.Find("inputName").GetComponent<InputField>().text;
         string mail = GameObject.Find("inputMail").GetComponent<InputField>().text;
+
         if (VerifyMail(mail))
         {
             Api api = new Api();
@@ -45,14 +50,13 @@ public class ButtonClick : MonoBehaviour
         }
         else
         {
-            GameObject textError = GameObject.Find("textError");
             textError.SetActive(true);
         }
     }
 
     private bool VerifyMail(string mail)
     {
-        Regex rx = new Regex(@"/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g");
+        Regex rx = new Regex(@"^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$");
 
         return rx.IsMatch(mail);
     }
