@@ -10,6 +10,16 @@ namespace Assets.Scripts.Classes
 {
     public class Api
     {
+        HttpClient Client;
+
+        public Api()
+        {
+            Client = new HttpClient();
+        }
+        public Api(HttpClient client)
+        {
+            Client = client;
+        }
         public string CreateUrlToken()
         {
             string username = "florent.oddo@epsi.fr";
@@ -32,13 +42,12 @@ namespace Assets.Scripts.Classes
         {
             string token = "";
             string urlToken = CreateUrlToken();
-            var client = new HttpClient();
             using (var request = new HttpRequestMessage(HttpMethod.Post, urlToken))
             {
                 using var stringContent = new StringContent("", Encoding.UTF8, "application/json");
                 request.Content = stringContent;
 
-                using var send = await client.SendAsync(request, HttpCompletionOption.ResponseHeadersRead)
+                using var send = await Client.SendAsync(request, HttpCompletionOption.ResponseHeadersRead)
                     .ConfigureAwait(false);
 
                 if (!send.IsSuccessStatusCode)
@@ -46,7 +55,6 @@ namespace Assets.Scripts.Classes
                     return null;
                 }
 
-                var response = send.EnsureSuccessStatusCode();
                 var res = await send.Content.ReadAsStringAsync();
 
                 Response reponse = JsonConvert.DeserializeObject<Response>(res);
@@ -61,16 +69,15 @@ namespace Assets.Scripts.Classes
         public async Task<string> InsertOpportunity(string token, Opportunity opportunity)
         {
             string jsonOpportunity = JsonConvert.SerializeObject(opportunity);
-            var client = new HttpClient();
             string urlOpportunity = "https://epsi-4a-dev-ed.my.salesforce.com/services/data/v53.0/sobjects/Opportunity";
 
             using (var req = new HttpRequestMessage(HttpMethod.Post, urlOpportunity))
             {
-                client.DefaultRequestHeaders.Add("Authorization", "Bearer " + token);
+                Client.DefaultRequestHeaders.Add("Authorization", "Bearer " + token);
                 using var stringCont = new StringContent(jsonOpportunity, Encoding.UTF8, "application/json");
                 req.Content = stringCont;
 
-                using var send = await client.SendAsync(req, HttpCompletionOption.ResponseHeadersRead)
+                using var send = await Client.SendAsync(req, HttpCompletionOption.ResponseHeadersRead)
                     .ConfigureAwait(false);
 
                 return send.StatusCode.ToString();
