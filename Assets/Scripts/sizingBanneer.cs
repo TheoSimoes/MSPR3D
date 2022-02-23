@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class sizing : MonoBehaviour
+public class sizingBanneer : MonoBehaviour
 {
-    int width = 1400;
-    int height = 250;
+    int width = 1080;
+    int height = 300;
     public RectTransform myBanneer;
     // Start is called before the first frame update
     void Start()
